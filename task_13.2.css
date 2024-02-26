@@ -1,0 +1,54 @@
+.bg{
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.fm {
+    background-color: greenyellow;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.head {
+            color: rgb(95, 28, 84);
+            text-decoration: underline;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 30px;
+        
+}
+
+
+
+@media screen and (min-width:300px) and (max-width:576px){
+    .xtra-small {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px){
+    .small {
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+    .medium {
+        background-color: orangered;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px){
+    .large {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width:1201px){
+    .xtra-large {
+        background-color: brown;
+    }
+}
